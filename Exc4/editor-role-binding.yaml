@@ -4,7 +4,7 @@ metadata:
   name: cluster-admin-pods
 subjects:
 - kind: User
-  name: operator
+  name: developer
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
